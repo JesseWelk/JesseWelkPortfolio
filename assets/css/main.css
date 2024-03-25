@@ -2743,6 +2743,17 @@ input[type="radio"]:focus+label:before {
 	width: 100%;
 }
 
+.image.left4 img,
+.image.right4 img {
+	width: 80%;
+}
+
+.image.left4,
+.image.right4 {
+	max-width: 70%;
+	padding-left: 12rem;
+}
+
 .image.left {
 	float: left;
 	margin: 0 2rem 2rem 0;
@@ -2770,6 +2781,50 @@ input[type="radio"]:focus+label:before {
 }
 
 .image.right2:hover {
+	transform:scale(1.7);
+}
+
+.spaceing{
+	margin-right: -8rem;
+}
+
+.headspace{
+	margin-top: 7rem;
+}
+
+.image.right3 {
+	float: right;
+	margin: 0 0 0rem 2rem;
+	top: 0.75rem;
+	transition: transform .4s;
+	padding-bottom: 4em;
+	padding-left: 4rem;
+}
+
+.image.right3:hover {
+	transform:scale(1.7);
+}
+
+.image.left3 img,
+.image.right3 img {
+	width: 50%;
+}
+
+.image.left4 {
+	float: left;
+	margin: 0 2rem 2rem 0;
+	top: 0.75rem;
+}
+
+.image.right4 {
+	float: right;
+	margin: 0 0 0rem -7rem;
+	top: 0.75rem;
+	transition: transform .4s;
+	padding-bottom: 4em;
+}
+
+.image.right4:hover {
 	transform:scale(1.7);
 }
 
