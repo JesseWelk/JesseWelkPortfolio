@@ -2786,6 +2786,24 @@ input[type="radio"]:focus+label:before {
 	top: 0.75rem;
 }
 
+.image.right6 {
+	float: right;
+	margin: 0 0 0rem 2rem;
+	top: 0.75rem;
+	transition: transform .4s;
+	padding-bottom: 4em;
+	max-width: 50%;
+	padding-bottom: 0em;
+}
+
+.image.right6:hover {
+	transform:scale(1.7);
+}
+
+.image.right6 img {
+	width: 80%;
+}
+
 .image.right2 {
 	float: right;
 	margin: 0 0 0rem 2rem;
@@ -2831,6 +2849,16 @@ input[type="radio"]:focus+label:before {
 	max-width: 100%;
 	padding-bottom: 2em;
 	padding-left: 3em;
+}
+
+.image.right6 {
+	float: right;
+	margin: 0 0 2rem 3rem;
+	top: 0.75rem;
+	transition: transform .4s;
+	padding-bottom: 4em;
+	max-width: 90%;
+	padding-bottom: 0em;
 }
 
 }
