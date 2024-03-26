@@ -2792,8 +2792,8 @@ input[type="radio"]:focus+label:before {
 	top: 0.75rem;
 	transition: transform .4s;
 	padding-bottom: 4em;
-	max-width: 50%;
-	padding-bottom: 0em;
+	max-width: 60%;
+	padding-left: 4em;
 }
 
 .image.right6:hover {
@@ -2830,7 +2830,7 @@ input[type="radio"]:focus+label:before {
 	top: 0.75rem;
 	transition: transform .4s;
 	padding-bottom: 4em;
-	padding-left: 4rem;
+	padding-left: 3rem;
 }
 
 .image.right3:hover {
@@ -2859,6 +2859,7 @@ input[type="radio"]:focus+label:before {
 	padding-bottom: 4em;
 	max-width: 90%;
 	padding-bottom: 0em;
+	padding-left: 0em;
 }
 
 }
